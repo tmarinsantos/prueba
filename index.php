@@ -19,7 +19,7 @@
 	<table border cellpadding=3>
 		<tr>
 		<td>Nombre Usuario</td>
-		<td>Dirección email</td>
+		<td>Apellidos</td>
 		</tr>
 		<?php
 		while($currentRow = mysql_fetch_array($result)){
