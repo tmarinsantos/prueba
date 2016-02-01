@@ -22,8 +22,8 @@ $result = mysql_query("SELECT * FROM users") or die(mysql_error());
 <?php
 while($currentRow = mysql_fetch_array($result)){
 echo "<tr>";
-echo "<td>" . $currentRow['username'] . "</td>";
-echo "<td>" . $currentRow['email'] . "</td>";
+echo "<td>" . $currentRow['nombre'] . "</td>";
+echo "<td>" . $currentRow['apellidos'] . "</td>";
 echo "</tr>";
 }
 ?>
