@@ -1,1 +1,1 @@
-echo $date >> $OPENSHIFT_REPO_DIR/testcron.txt
+date >> $OPENSHIFT_REPO_DIR/testcron.txt
